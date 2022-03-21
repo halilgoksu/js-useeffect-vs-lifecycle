@@ -5,8 +5,22 @@ class Lifecycle extends Component {
     counter:0
   }
   componentDidMount(){
-    console.log('copmdid min calist ')
+    console.log('componentDidMount worked ')
   }
+  //render edilir edilmez calisan meethotdur 
+  //sedece bir kere calisrir
+  //icine bir kere mahsus calistimak istedigimiz elemanlari at 
+
+
+  componentDidUpdate(prevProps,prevState){
+    if(prevState.counter !== this.state.counter)
+    console.log("componentDidUpdate worked")
+  }
+  //bir sey update edilirse (degiseime ugrarsa calisir)
+  //icine parameter de eklyebilirz , hangi obje degisirse fonk calisn istyosak 
+
+
+  //componentWillUnmount(){}
 
   increase=()=>{
     this.setState({counter:this.state.counter +1})
