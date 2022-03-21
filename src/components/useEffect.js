@@ -11,8 +11,9 @@ function UseEffect() {
     [message]
   );
   return (
-    <div className="App">
-      <h1>use Effect</h1>
+    <div className="useeffect">
+      <h2>useEffect</h2>
+      <br></br>
       {message}
       <button
         onClick={() => {

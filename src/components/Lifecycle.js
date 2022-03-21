@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
 
 function Lifecycle() {
   return (
-    <div>Lifecycle</div>
-  )
+    <div className="lifecycle">
+      <h2>Lifecycle</h2>
+      <br></br>
+    </div>
+  );
 }
 
-export default Lifecycle
+export default Lifecycle;
