@@ -7,7 +7,7 @@ import './index.css';
 function App() {
   return (
     <div className="App">
-      <h1 className="first-h1">useEffcet vs Lifecyle</h1>
+      <h1 className="first-h1">useEffcet vs Lifecycle</h1>
       <header className="App-header">
         <UseEffect ></UseEffect>
         <Lifecycle></Lifecycle>
