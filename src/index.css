@@ -2,44 +2,86 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
+body {
   background-color: rgba(0, 0, 0, 0.164);
 
 }
-.App-header{
+
+.container {
+  margin: 5% 5%;
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+  font-size: large;
+
+
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+  color: red;
+  height: 2rem;
+  font-size: 1rem;
+  margin: 1% 5%;
+
+
+}
+
+.comp {
   display: flex;
   flex-direction: row;
   align-items: center;
   text-align: center;
-  margin: 5% 5%;
-  gap: 5%;
+  margin: 1% 5%;
+  gap: 1rem;
+  justify-content: center;
+
 }
 
-.useeffect{
 
-  height: 30rem;
-  width: 70%;
+
+.useeffect {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  height: 40rem;
+  width: 30rem;
   background-color: rgba(255, 0, 0, 0.329);
   border: solid 1px;
+  align-items: center;
+
 
 }
 
-.lifecycle{
-  height: 30rem;
-  width: 70%;
+.lifecycle {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  height: 40rem;
+  width: 30rem;
   background-color: rgba(4, 70, 87, 0.651);
   border: solid 1px;
+  align-items: center;
 
 
 }
 
-.first-h1{
+.first-h1 {
   text-align: center;
-  border: solid;
-  background-color: rgba(255, 255, 0, 0.199);
-  margin: 5% 10%;
-  color: rgba(0, 0, 0, 0.692);
+
+  
+}
+
+button {
+  cursor: pointer;
+  width: 6rem;
+  height: 2rem;
 }
